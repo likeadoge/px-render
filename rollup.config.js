@@ -15,7 +15,7 @@ export default {
         })
     ],
     output: [{
-        file: 'dist/bundle.cjs.js',
+        file: 'dist/bundle.js',
         format: 'cjs',
         sourcemap: true
     }]

@@ -22,7 +22,7 @@ Promise.all([
 
 
     const compiler = Webpack(webpackConfig(
-        path.resolve(process.cwd(), './app.tsx'),
+        path.resolve(process.cwd(), './app.ts'),
         tsloader[1],
         path.resolve(__dirname, '../tsconfig.json'),
     ))
